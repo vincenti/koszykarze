@@ -73,7 +73,13 @@ public function bryantAction()
     /*
      * H
      */
-
+/**
+ * @Route("/James.html", name="James")
+ */
+public function JamesAction()
+{
+    return $this->render('default/James.html.twig');
+}
     /*
      * I
      */
