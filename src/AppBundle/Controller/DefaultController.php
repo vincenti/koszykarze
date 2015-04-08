@@ -27,6 +27,13 @@ class DefaultController extends Controller
     /*
      * C
      */
+     /**
+ * @Route("/russell.html", name="russell")
+ */
+public function russellAction()
+{
+    return $this->render('default/russell.html.twig');
+}
 
     /*
      * D
