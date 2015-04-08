@@ -38,6 +38,13 @@ public function russellAction()
     /*
      * D
      */
+/**
+ * @Route("/bryant.html", name="bryant")
+ */
+public function bryantAction()
+{
+    return $this->render('default/bryant.html.twig');
+}
 
     /*
      * E
