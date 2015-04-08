@@ -19,7 +19,13 @@ class DefaultController extends Controller
     /*
      * A
      */
-
+    /**
+ * @Route("/jordan.html", name="jordan")
+ */
+public function  jordanAction()
+{
+    return $this->render('default/jordan.html.twig');
+}
     /*
      * B
      */
