@@ -29,7 +29,13 @@ public function  jordanAction()
     /*
      * B
      */
-
+     /**
+ * @Route("/gortat.html", name="gortat")
+ */
+public function  gortatAction()
+{
+    return $this->render('default/gortat.html.twig');
+}
     /*
      * C
      */
