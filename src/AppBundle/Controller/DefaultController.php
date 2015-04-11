@@ -61,6 +61,14 @@ public function bryantAction()
     /*
      * E
      */
+/**
+ * @Route("/carmelo.html", name="carmelo")
+ */
+public function carmeloAction()
+{
+    return $this->render('default/carmelo.html.twig');
+}
+
 
     /*
      * F
