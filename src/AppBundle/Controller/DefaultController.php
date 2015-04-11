@@ -69,6 +69,13 @@ public function carmeloAction()
     return $this->render('default/carmelo.html.twig');
 }
 
+/**
+ * @Route("/gasol.html", name="gasol")
+ */
+public function gasolAction()
+{
+    return $this->render('default/gasol.html.twig');
+}
 
     /*
      * F
